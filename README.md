@@ -51,6 +51,8 @@ Open notebook exploring multi-user shared AI chat applications. **Question:** do
 
 ## Templates
 
+The research workspaces above are built on the following templates.
+
 ### Claude Research Space Public Template
 
 Claude Code deep-research repo template with public publishing support — the blueprint that the workspaces above are built on.
