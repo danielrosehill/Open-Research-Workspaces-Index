@@ -35,6 +35,12 @@ Ongoing stack/tooling research notebook on managing a large personal GitHub repo
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Github-Repo-Org-Question)
 
+### Local Claude Plugin Install Research
+
+Research workspace investigating how to permanently install Claude Code plugins from a local filesystem path without requiring a public marketplace. **Question:** is there any mechanism — documented or undocumented — for persistent local plugin installation, and what is the most robust workaround until native support arrives?
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Local-Claude-Plugin-Install-Research)
+
 ### MCP Server Research
 
 Multi-model stack research run (January 2026) into MCP gateway solutions. **Question:** which MCP gateways best support dynamic tool discovery and mitigate context pollution for a solo developer? Compares Claude Opus, Perplexity Sonar, o4-mini, Gemini Flash, and Alibaba DeepResearch outputs.
