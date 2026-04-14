@@ -35,6 +35,12 @@ Ongoing stack/tooling research notebook on managing a large personal GitHub repo
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Github-Repo-Org-Question)
 
+### Live Typing UX Research
+
+Public research workspace cataloguing the UX of live voice typing as a desktop keyboard replacement. **Question:** what interaction patterns, friction points, and architectural tradeoffs (streaming vs offline ASR, partial vs final injection, endpointing) define a workable "ideal" desktop live-typing UI?
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Live-Typing-UX-Research)
+
 ### Local Claude Plugin Install Research
 
 Research workspace investigating how to permanently install Claude Code plugins from a local filesystem path without requiring a public marketplace. **Question:** is there any mechanism — documented or undocumented — for persistent local plugin installation, and what is the most robust workaround until native support arrives?
