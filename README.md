@@ -12,6 +12,7 @@ Public research notebooks — living repositories where an open question is expl
 
 - [Research Workspaces](#research-workspaces)
 - [Templates](#templates)
+  - [Choosing a template](#choosing-a-template)
 
 ---
 
@@ -63,19 +64,35 @@ Open notebook exploring multi-user shared AI chat applications. **Question:** do
 
 ## Templates
 
-The research workspaces above are built on the following templates.
+The research workspaces above are built on one of the following templates. Each is shaped around a different research mode — see [Choosing a template](#choosing-a-template) below.
 
 ### Claude Research Space Public Template
 
-Claude Code deep-research repo template with public publishing support — the blueprint that the workspaces above are built on.
+Heavyweight workflow for **iterative, multi-round AI-assisted research projects** intended to be published. Includes a prompt queue, individual/aggregated outputs, compaction-based context management, voice-note ingestion (AssemblyAI), and built-in `/export` commands for blog posts, reports, briefings, and social threads. Use when the deliverable is a published research artefact and the process itself is the audit trail.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Research-Space-Public-Template)
 
+### Claude Technical Research Template
+
+Lightweight Q&A workspace for **capturing technical how-to questions and their AI-assisted answers as a maintainable, multi-file reference** — like a GitHub Gist, but versioned and built to be revised over time. Each topic is a cross-referenced pair: `questions/<slug>.md` (the question as posed) and `ideas/<slug>.md` (the long-form response). Includes `/ask`, `/revise`, `/followup`, `/glossary`, and `/consolidate` (Typst+PDF bundling). Use when the deliverable is a growing personal/public reference of "how do I do X?" answers, not a single research report.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Technical-Research-Template)
+
 ### Ecosystem Mapper
 
-Claude research utility for delineating an emerging tech ecosystem — communities, orgs, events, and publications around a topic.
+Claude Code plugin for **delineating an emerging tech ecosystem** — discovers, categorises, and publishes a structured GitHub repository mapping the communities, orgs, projects, and resources around a keyword (e.g. "agentic AI", "vector databases"). Includes skills for creating, updating, organising, and visualising the resulting map. Use when the deliverable is a curated landscape map rather than narrative research or Q&A.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Ecosystem-Mapper)
+
+### Choosing a template
+
+| If you're doing… | Use | Output shape |
+|---|---|---|
+| A single research project with rounds of prompts, compaction, and a polished published artefact | **Claude Research Space Public Template** | One report (with exports to blog/PDF/social), built up over multiple research rounds |
+| Open-ended capture of technical Q&A as a living reference, one topic at a time | **Claude Technical Research Template** | A growing collection of question/idea pairs, optionally consolidated into PDFs |
+| Mapping the players, projects, and resources in a tech ecosystem | **Ecosystem Mapper** | A categorised, badge-rich GitHub repo that functions as a landscape map |
+
+Rough rule of thumb: **Public Template** is for *one big question, many rounds, one publishable answer*. **Technical Research Template** is for *many small questions, one round each, one growing reference*. **Ecosystem Mapper** is for *one keyword, structured taxonomy, one curated map*.
 
 ---
 
