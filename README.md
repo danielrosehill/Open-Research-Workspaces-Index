@@ -60,6 +60,12 @@ Open notebook exploring multi-user shared AI chat applications. **Question:** do
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Shared-AI-Chats-Research)
 
+### State Of Claude Context 0426
+
+Openly-logged Q&A research notebook on the current state of context handling in Claude as of April 2026. **Question:** what is the state of Claude's context window, prompt caching, memory, compaction, and tool-result handling — and how do these shape real-world workflows? Q&A pairs accumulate in `questions/` + `answers/`, with periodic consolidation into PDFs.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/State-Of-Claude-Context-0426)
+
 ---
 
 ## Templates
