@@ -4,7 +4,7 @@
 
 Public research notebooks — living repositories where an open question is explored iteratively with Claude Code as the execution engine. Each workspace pairs a research question with context, prompts, and accumulated outputs.
 
-**Last Updated:** April 2026
+**Last Updated:** August 2026
 
 ---
 
@@ -53,6 +53,12 @@ Research workspace investigating how to permanently install Claude Code plugins 
 Multi-model stack research run (January 2026) into MCP gateway solutions. **Question:** which MCP gateways best support dynamic tool discovery and mitigate context pollution for a solo developer? Compares Claude Opus, Perplexity Sonar, o4-mini, Gemini Flash, and Alibaba DeepResearch outputs.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/MCP-Server-Research)
+
+### Sensory Notebook
+
+An open notebook on sensory sensitivity, deliberately two things at once: sourced research answers to questions about sensory processing, and a personal record — sensory profile, story, and the interventions that actually worked, with their failure modes. **Question:** what does the evidence actually say about sensory over-responsivity, and what holds up in daily life? Research claims are cited; personal experience is labelled as such and never dressed up as a finding. Not medical advice.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Sensory-Notebook)
 
 ### Shared AI Chats Research
 
