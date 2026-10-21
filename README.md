@@ -1,6 +1,6 @@
 # Open Research Workspaces Index
 
-[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)
+[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Start-Here)
 
 Public research notebooks — living repositories where an open question is explored iteratively with Claude Code as the execution engine. Each workspace pairs a research question with context, prompts, and accumulated outputs.
 
