@@ -4,7 +4,7 @@
 
 Public research notebooks — living repositories where an open question is explored iteratively with Claude Code as the execution engine. Each workspace pairs a research question with context, prompts, and accumulated outputs.
 
-**Last Updated:** August 2026
+**Last Updated:** October 2026
 
 ---
 
@@ -23,12 +23,6 @@ Public research notebooks — living repositories where an open question is expl
 Living research notebook on ADHD drug policy and access — a real project open-sourced as both a working workspace and a worked example of the research-repo pattern. **Question:** how should ADHD medication access policy be structured, and what does the evidence actually say?
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-ADHD-Research-Workspace)
-
-### Claude Local AI Agent Research
-
-Evolving workbook tracking agentic LLMs and CLI tools for desktop/server **system administration** (not code generation). **Question:** which local/agentic models and tools are actually suited to sysadmin workflows, and where is the gap between code-gen-centric tooling and filesystem-wide admin use?
-
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Local-AI-Agent-Research)
 
 ### GitHub Repo Org Question
 
@@ -78,24 +72,6 @@ Openly-logged Q&A research notebook on the current state of context handling in 
 
 The research workspaces above are built on one of the following templates. Each is shaped around a different research mode — see [Choosing a template](#choosing-a-template) below.
 
-### Claude Research Space Public Template
-
-Heavyweight workflow for **iterative, multi-round AI-assisted research projects** intended to be published. Includes a prompt queue, individual/aggregated outputs, compaction-based context management, voice-note ingestion (AssemblyAI), and built-in `/export` commands for blog posts, reports, briefings, and social threads. Use when the deliverable is a published research artefact and the process itself is the audit trail.
-
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Research-Space-Public-Template)
-
-### Claude Technical Research Template
-
-Lightweight Q&A workspace for **capturing technical how-to questions and their AI-assisted answers as a maintainable, multi-file reference** — like a GitHub Gist, but versioned and built to be revised over time. Each topic is a cross-referenced pair: `questions/<slug>.md` (the question as posed) and `ideas/<slug>.md` (the long-form response). Includes `/ask`, `/revise`, `/followup`, `/glossary`, and `/consolidate` (Typst+PDF bundling). Use when the deliverable is a growing personal/public reference of "how do I do X?" answers, not a single research report.
-
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Technical-Research-Template)
-
-### Ecosystem Mapper
-
-Claude Code plugin for **delineating an emerging tech ecosystem** — discovers, categorises, and publishes a structured GitHub repository mapping the communities, orgs, projects, and resources around a keyword (e.g. "agentic AI", "vector databases"). Includes skills for creating, updating, organising, and visualising the resulting map. Use when the deliverable is a curated landscape map rather than narrative research or Q&A.
-
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Ecosystem-Mapper)
-
 ### Choosing a template
 
 | If you're doing… | Use | Output shape |
@@ -110,11 +86,11 @@ Rough rule of thumb: **Public Template** is for *one big question, many rounds, 
 
 ## Related Indices
 
-### Research Tools Index
+### Research Tools And Templates Index
 
 Claude Code research workspaces, templates, agents, and related tooling for deep-research workflows.
 
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Research-Tools-Index)
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Research-Tools-And-Templates-Index)
 
 ---
 
